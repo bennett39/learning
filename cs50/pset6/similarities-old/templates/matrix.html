@@ -1,0 +1,28 @@
+<!-- TODO -->
+<table>
+    <thead>
+        <tr>
+            <th></th>
+            <th>0</th>
+            {% for c in string2 %}
+            <th>{{ c }}</th>
+            {% endfor %}
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>0</td>
+            {% for n in matrix[0] %}
+            <td>{{ matrix[0][n][0] }}</td>
+            {% endfor %}
+        </tr>
+        {% for i in matrix %}
+        <tr>
+            <td>{{ string2[i] }}</td>
+            {% for j in matrix[i] %}
+            <td>{{ matrix[i][j + 1][0] }}</td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>

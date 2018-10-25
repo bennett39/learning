@@ -1,0 +1,40 @@
+<table class="table table-sm">
+    <thead>
+        <tr>
+            <!--There are three empty cell in the first header-->
+            <th></th>
+            <th></th>
+            <th></th>
+            <!--s2 is the string2, according to application.py-->
+            {% for c in s2 %}
+                <th>{{ c }}</th>
+            {% endfor %}
+        </tr>
+        <tr>
+            <!--Two empty cell in the second header-->
+            <th></th>
+            <th></th>
+            {% for i in range((s2)|length + 1) %}
+                <th>{{ i }}</th>
+            {% endfor %}
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th></th>
+            <th>0</th>
+            {% for j in matrix[0] %}
+            <td>{{ j[0] }}</td>
+            {% endfor %}
+        </tr>
+        {% for k in range(s1|length) %}
+        <tr>
+            <th>{{ s1[k] }}</th>
+            <th>{{ k + 1 }}</th>
+            {% for n in matrix[k + 1] %}
+                <td>{{ n[0] }}</td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>

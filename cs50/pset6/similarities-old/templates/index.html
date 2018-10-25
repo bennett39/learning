@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+    <!-- TODO -->
+    <form action="/score" method="POST">
+        <div class="form-group">
+            <label for="string1">String #1</label>
+            <input type="text" name="string1" class="form-control" id="string1" placeholder="Enter a string">
+        </div>
+        <div class="form-group">
+            <label for="string2">String #2</label>
+            <input type="text" name="string2" class="form-control" id="string2" placeholder="Enter another string">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+{% endblock %}
