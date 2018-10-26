@@ -22,7 +22,7 @@ def main():
     # After successful key, prompt user for plaintext entry.
     plaintext = get_string("plaintext: ")
 
-    # Run Vigenere funciton and print result
+    # Run Vigenere function and print result
     ciphertext = vigenere(sys.argv[1], plaintext)
     print(f"ciphertext: {ciphertext}")
 
