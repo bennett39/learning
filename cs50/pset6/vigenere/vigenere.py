@@ -55,7 +55,7 @@ def vigenere(key, txt):
             new_c = ord(c) + (ord(key[counter % k]) % 32 - 1)
 
             # If new_c that exceeds end of alphabet ('Z' or 'z'),
-            # loop back to beginning to beginning of alphabet
+            # loop back to beginning of alphabet
             if ((c.isupper()) and new_c > 90) or new_c > 122:
                 new_c = new_c - 26
 
