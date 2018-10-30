@@ -22,10 +22,18 @@
 
 - https://scotch.io/tutorials/automate-your-tasks-easily-with-gulp-js
 
+## PostgreSQL & Distributed Databases
+
+- https://www.coursera.org/learn/distributed-database
+
 ## Django
 
 - https://www.djangoproject.com/start/
 - https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django
+
+## Multithreading in C++ & Python
+- C++: https://www.geeksforgeeks.org/multithreading-in-cpp/
+- Python: https://www.tutorialspoint.com/python/python_multithreading.htm
 
 ## javascript
 
