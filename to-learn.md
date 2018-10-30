@@ -1,36 +1,36 @@
-#To Learn
+# To Learn
 
-##Algorithms & Data Structures
+## Algorithms & Data Structures
 
 - https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/
 
-##C++
+## C++
 
 - http://www.learncpp.com/
 
-##Test Writing
+## Test Writing
 
 - https://docs.python.org/3/library/unittest.html
 - https://docs.pytest.org/en/latest/
 
-##Building an API
+## Building an API
 
 - https://www.codementor.io/sagaragarwal94/building-a-basic-restful-api-in-python-58k02xsiq
 - https://programminghistorian.org/en/lessons/creating-apis-with-python-and-flask
 
-##Gulp - task runner
+## Gulp - task runner
 
 - https://scotch.io/tutorials/automate-your-tasks-easily-with-gulp-js
 
-##Django
+## Django
 
 - https://www.djangoproject.com/start/
 - https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django
 
-##javascript
+## javascript
 
 - https://github.com/getify/You-Dont-Know-JS
 
-##node.js
-##React
-##Linux Server
+## node.js
+## React
+## Linux Server
