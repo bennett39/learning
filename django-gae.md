@@ -19,10 +19,10 @@ want to deploy it.
 You'll need the following to follow along with this guide:
 
 - A Google Cloud Platform account
-- A new project in your [Google Cloud dashboard] (https://console.cloud.google.com/home/dashboard)
+- A new project in your [Google Cloud dashboard](https://console.cloud.google.com/home/dashboard)
 - Billing enabled for GCP account
-- [Google Cloud SDK] (https://cloud.google.com/sdk/install) installed
-- [APIs enabled] (https://console.cloud.google.com/flows/enableapi) for
+- [Google Cloud SDK](https://cloud.google.com/sdk/install) installed
+- [APIs enabled](https://console.cloud.google.com/flows/enableapi) for
   the project
 
 ## Structure
@@ -66,7 +66,7 @@ Since the database comes first for any application, you'll need to
 create your Google Cloud SQL instance before you can think about deploying
 the app itself to Google's App Engine.
 
-Visit your [Cloud SQL instances dashboard] (https://console.cloud.google.com/sql/). 
+Visit your [Cloud SQL instances dashboard](https://console.cloud.google.com/sql/). 
 Click "Create Instance" to start a new SQL instance. 
 
 For the purposes of this guide, I used a MySQL 2nd Gen instance. I 
